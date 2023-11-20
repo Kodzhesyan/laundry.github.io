@@ -1,4 +1,4 @@
-baseURL = 'https://kodzhesyan.github.io/laundry.github.io/'
+baseURL = 'https://kodzhesyan.github.io/'
 languageCode = 'uk'
 title = 'Laundry Rooms'
 theme = 'PaperMod'
