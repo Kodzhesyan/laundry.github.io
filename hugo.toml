@@ -1,0 +1,36 @@
+baseURL = 'https://example.org/'
+languageCode = 'uk'
+title = 'Laundry Rooms'
+theme = 'PaperMod'
+publishDir = 'docs'
+
+[params]
+defaultTheme = 'auto'
+
+[params.homeInfoParams]
+Title = 'Laundry Rooms'
+Content = 'Швидка пральня'
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "diaexpert.ua"
+name = "diaexpert.ua"
+url = "https://diaexpert.ua/product-category/monitoring-uk/"
+weight = 30
+
+[[menu.main]]
+identifier = "nightscout"
+name = "Nightscout"
+url = "https://nightscout.pp.ua/"
+weight = 40
